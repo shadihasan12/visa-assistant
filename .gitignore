@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node / NestJS
+node_modules/
+dist/
+coverage/
+
+# Python (rag/)
+__pycache__/
+.venv/
+*.pyc
+
+# Flutter (mobile/ has its own .gitignore too)
+.dart_tool/
+build/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
